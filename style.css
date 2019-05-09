@@ -1,0 +1,123 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.head {
+    float: right;
+    margin-left: 700px;
+}
+
+.one {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.two {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.three {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.four {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+figcaption {
+    color: #f25079;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+}
+
+.book {
+    box-shadow: -1px 1px 19px;
+    width: 357px;
+}
+
+aside {
+    padding: 20px;
+}
+
+.mid {
+    display: block;
+}
+
+#star {
+    color: #f8b732;
+}
+
+.cart {
+    border: 1px solid #f2849e;
+    background-color: #f2849e;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.cart:hover {
+    background-color: #ed4b74;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product {
+    display: inline;
+}
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5 {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    padding-top: 10px;
+}
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.dollar {
+    color: #b12704
+}
+.save {
+    color: #b12704;
+}
